@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html{
+    overflow:hidden
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#myimg{
+    width: 100%;
+    height:72vh;
+    padding: 0;
+    margin:0;
+}
+li{
+    margin:10px;
+}
+.cardContent {
+    height: 200px;
+    font-size: 30px;
+    font-family: monospace;
+    text-align:center
+
+}
+.mycol {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 76vh;
+}
+.row{
+    margin-bottom:0;
+}
+
+input[type=text], input[type=password], select {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input{
+    height:22px;
+}
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.myLogin{
+    height: 76vh;
+}
+.signUpForm{
+    height: 20vh;
+}
