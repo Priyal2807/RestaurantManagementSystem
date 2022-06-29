@@ -18,7 +18,7 @@ app.use("/api/login", loginRoute)
 app.use("/api/signup", signupRoute)
 
 if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('client/build'))
+    app.use(express.static('rms/build'))
 }
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => {
