@@ -17,12 +17,12 @@ app.use(cors());
 app.use("/api/login", loginRoute)
 app.use("/api/signup", signupRoute)
 
-if (process.env.NODE_ENV === 'production') {
+
     app.use(express.static('rms/build'));
     app.get('*', function (req, res) {
         res.sendFile(path.join(__dirname, '/rms/build', 'index.html'))
     })
-}
+
 
 
 
