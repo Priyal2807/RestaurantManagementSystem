@@ -6,3 +6,4 @@
 /login/node_modules
 /login/.env
 /node_modules
+/.env

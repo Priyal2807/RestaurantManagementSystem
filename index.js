@@ -13,10 +13,10 @@ const app = express()
 app.use(express.json());
 app.use(cors());
 
-//routing
 
 app.use("/api/login", loginRoute)
 app.use("/api/signup", signupRoute)
-app.listen(4000, () => {
-    console.log("the app is listening at 4000");
+const PORT = process.env.PORT || 5000
+app.listen(PORT, () => {
+    console.log(`the app is listening at ${PORT} `);
 })

@@ -77,3 +77,10 @@ img.avatar {
 .signUpForm{
     height: 20vh;
 }
+.table{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+    margin: 10px 10px 10px 10px;
+}
