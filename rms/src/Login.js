@@ -15,7 +15,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const url = "/api/login"
+            const url = "http://localhost:5000/api/login"
             const { data: res } = await axios.post(url, data);
             localStorage.setItem("token", res.data);
             if(data.role === "Master" || data.role === "Cashier")
