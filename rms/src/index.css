@@ -60,9 +60,7 @@ input[type=text], input[type=password], select {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-}
-input{
-    height:22px;
+    height:fit-content
 }
 button {
     background-color: lightslategrey;
