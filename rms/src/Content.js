@@ -1,18 +1,13 @@
 import React, { Component } from 'react';
 const Content = () => {
     return (
-        <div className="row">
-            <div className="col s6 mycol">
-                <img src={require("./res.jpeg")} id="myimg" />
+        <div className="myContainer">
+            <div className="bcgImage">
+                <img src={require("./res.jpeg")} alt="restuarant image" className="res"></img>
             </div>
-            <div className="col s6 mycol">
-            <div className="card">
-                <div className="cardContent">
-                        HELLO <br/> WELCOME TO OUR RESTAURANT
-                </div>
+            <div className="sidediv">
+                
             </div>
-            </div>
-            
         </div>
      )
 }

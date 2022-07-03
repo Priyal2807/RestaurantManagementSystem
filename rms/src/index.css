@@ -60,7 +60,8 @@ input[type=text], input[type=password], select {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    height:fit-content
+    height:fit-content;
+    font-family: monospace;
 }
 button {
     background-color: lightslategrey;
@@ -96,4 +97,20 @@ img.avatar {
 }
 label{
     font-family: monospace;
+}
+.bcgImage, .sidediv {
+    display: inline;
+    /*both required or else the first one will behave like a block level ele and push the other one*/
+}
+
+.myContainer{
+    margin:0;
+}
+.res{
+    height:80vh;
+    width:50%;/*html width is considered not the parent div as their width and height are ignored, they are inline*/
+}
+.sidediv button{
+    border-radius: 1em;
+
 }
