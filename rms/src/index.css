@@ -91,16 +91,36 @@ label{
 }
 .bcgImage, .sidediv {
     width:50%;
-    height:80vh;
     /*both required or else the first one will behave like a block level ele and push the other one*/
 }
 
 .myContainer{
-    margin:0;
     display:flex;
     flex-direction: row;
-}
-.res{
-    height:80vh;/*html width is considered not the parent div as their width and height are ignored, they are inline*/
+    width: 100%;
+    height: 80vh;
 }
 
+
+.nav-div{
+    height: 10vh;
+    width: 100%;
+    display: inline-block;
+    background-color: cadetblue;
+
+}
+.nav-div a, .nav-div ul, .nav-div li{
+    display: inline-block;
+}
+.nav-div ul{
+    float:right;
+}
+.nav-div a{
+    position:relative;
+    top: 10px;
+    left: 10px;
+}
+.res{
+    height: 80vh;
+    width:100%;
+}
