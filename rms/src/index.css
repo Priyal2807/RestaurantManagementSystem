@@ -109,9 +109,11 @@ label{
     background-color: cadetblue;
 
 }
-.nav-div a, .nav-div ul, .nav-div li{
-    display: inline-block;
-}
+.nav-div a, .nav-div ul, .nav-div li {
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
 .nav-div ul{
     float:right;
 }
